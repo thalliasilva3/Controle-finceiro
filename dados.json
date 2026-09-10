@@ -1,0 +1,30 @@
+{
+    "receitas": 2483.0000000000005,
+    "despesas": 2628.0,
+    "movimentacoes": [
+        {
+            "tipo": "Receita",
+            "descricao": "Pagamento",
+            "categoria": "Salario",
+            "valor": 1521.0
+        },
+        {
+            "tipo": "Receita",
+            "descricao": "Vale",
+            "categoria": "Salario",
+            "valor": 962.0
+        },
+        {
+            "tipo": "Despesa",
+            "descricao": "Apartamento",
+            "categoria": "Outros",
+            "valor": 1265.0
+        },
+        {
+            "tipo": "Despesa",
+            "descricao": "Juros de obra",
+            "categoria": "Outros",
+            "valor": 1363.0
+        }
+    ]
+}
