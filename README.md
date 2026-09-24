@@ -87,7 +87,7 @@ python main.py
 
 Desenvolvi este projeto para praticar programação em Python, criação de interfaces gráficas, armazenamento de dados, visualização de informações e organização de um projeto com controle de versão.
 
-## 👩‍💻 Desenvolvedora
+##   Desenvolvedora
 
 **Thallia Silva de Oliveira**
 Estudante de Análise e Desenvolvimento de Sistemas, UniAnchieta.
