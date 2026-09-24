@@ -1,85 +1,98 @@
-Sistema de Controle Financeiro
+# 💰 Sistema de Controle Financeiro
 
-Aplicativo desktop desenvolvido em Python com PySide6, criado para auxiliar no controle e acompanhamento de receitas e despesas pessoais.
+Aplicativo desktop feito em Python com PySide6 para ajudar no controle de receitas e despesas pessoais. A ideia é ter um lugar simples onde eu consiga registrar o que entra e o que sai e ver, de forma rápida, como está a minha situação financeira.
 
-📌 Sobre o projeto
+## 📌 Sobre o projeto
 
-O Sistema de Controle Financeiro permite registrar, editar e excluir movimentações financeiras, facilitando a visualização da situação financeira do usuário.
+Neste sistema é possível cadastrar, editar e excluir movimentações, classificar cada uma por categoria e acompanhar o saldo, que é calculado automaticamente. Também incluí um gráfico comparando receitas e despesas.
 
-O projeto foi desenvolvido como uma aplicação desktop, com uma interface gráfica simples e intuitiva.
+Fiz o projeto como aplicação desktop, com uma interface gráfica simples e fácil de usar.
 
-✨ Funcionalidades
+## ✨ Funcionalidades
 
-* ➕ Cadastro de receitas
-* ➖ Cadastro de despesas
-* ✏️ Edição de movimentações
-* 🗑️ Exclusão de movimentações
-* 💰 Cálculo automático de receitas
-* 💸 Cálculo automático de despesas
-* 📊 Cálculo automático do saldo
-* 📈 Gráfico de receitas x despesas
-* 💾 Salvamento dos dados em arquivo JSON
-* 🤖 Assistente Financeiro
-* 🗂️ Organização das movimentações por categoria
+- ➕ Cadastro de receitas
+- ➖ Cadastro de despesas
+- ✏️ Edição de movimentações
+- 🗑️ Exclusão de movimentações
+- 🗂️ Categoria em cada movimentação (Salário, Alimentação, Moradia, Transporte, Lazer e Outros)
+- 💰 Cálculo automático do total de receitas
+- 💸 Cálculo automático do total de despesas
+- 📊 Cálculo automático do saldo
+- 📈 Gráfico de receitas x despesas
+- 💾 Salvamento dos dados em arquivo JSON
 
-🛠️ Tecnologias utilizadas
+## 🛠️ Tecnologias utilizadas
 
-* Python 3.13
-* PySide6 — interface gráfica
-* Matplotlib — gráficos
-* JSON — armazenamento dos dados
-* Git e GitHub — versionamento e compartilhamento do projeto
+- Python 3.13
+- PySide6 (interface gráfica)
+- Matplotlib (gráficos)
+- JSON (armazenamento dos dados)
+- Git e GitHub (versionamento e compartilhamento)
 
-📂 Estrutura do projeto
+## 📂 Estrutura do projeto
 
-CONTROLE FINANCEIRO
-│
-├── main.py
-├── app.py
-├── dados.json
-├── README.md
-├── requirements.txt
+```
+Controle-finceiro/
+├── main.py            # ponto de entrada: é o arquivo que deve ser executado
+├── app.py             # interface e lógica do aplicativo
+├── dados.json         # arquivo onde os dados são salvos
+├── requirements.txt   # dependências
 ├── .gitignore
-└── venv/
+└── README.md
+```
 
-A pasta venv e o arquivo .env não são enviados ao GitHub, pois estão protegidos pelo .gitignore.
+A pasta `venv/` não é enviada ao GitHub, porque está no `.gitignore`.
 
-▶️ Como executar o projeto
+## ▶️ Como executar
 
-1. Instalar o Python
+Testei o projeto no **Windows**, com **Python 3.13**.
 
-É necessário ter o Python 3.13 instalado.
+**1. Clonar o repositório**
 
-2. Criar o ambiente virtual
+```
+git clone https://github.com/thalliasilva3/Controle-finceiro.git
+cd Controle-finceiro
+```
 
-No terminal:
+**2. Criar o ambiente virtual**
 
+```
 py -3.13 -m venv venv
+```
 
-3. Ativar o ambiente virtual
+**3. Ativar o ambiente virtual** (PowerShell)
 
-No Windows PowerShell:
-
+```
 venv\Scripts\Activate.ps1
+```
 
-4. Instalar as dependências
+**4. Instalar as dependências**
 
+```
 pip install -r requirements.txt
+```
 
-5. Executar o aplicativo
+**5. Executar o aplicativo**
 
+```
 python main.py
+```
 
-🎓 Objetivo acadêmico
+## 🗒️ Observações
 
-Este projeto foi desenvolvido com o objetivo de aplicar conhecimentos de programação, desenvolvimento de interfaces gráficas, armazenamento de dados, visualização de informações e organização de um projeto utilizando controle de versão.
+- Os dados ficam salvos no `dados.json`, na mesma pasta do projeto, e são carregados automaticamente sempre que o app abre.
+- Se o app não abrir, confira se o ambiente virtual está ativado e se as dependências foram instaladas.
 
-👩‍💻 Desenvolvedora
+## 🎓 Objetivo acadêmico
 
-Thallia Silva de Oliveira
+Desenvolvi este projeto para praticar programação em Python, criação de interfaces gráficas, armazenamento de dados, visualização de informações e organização de um projeto com controle de versão.
+
+## 👩‍💻 Desenvolvedora
+
+**Thallia Silva de Oliveira**
+Estudante de Análise e Desenvolvimento de Sistemas, UniAnchieta.
 
 Projeto desenvolvido para fins acadêmicos.
-
 ⸻
 
 Sistema de Controle Financeiro — Python + PySide6
